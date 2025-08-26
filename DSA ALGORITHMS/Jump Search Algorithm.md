@@ -13,4 +13,12 @@
 3. Do a linear search **inside that block**.
 4. If found → return index, else → return -1.
 
+# Real world Analogy
+
+Imagine a **dictionary**:
+
+- Instead of checking word by word, you flip ahead **10 pages at a time** (jumps).
+- Once you pass the section (overshoot), you go **back a few pages** (linear search). 
+   This is **Jump Search**.
+
 # 
