@@ -23,6 +23,8 @@ Imagine a **dictionary**:
 
 # Real World Examples
 
-- Phone Directory
+- **Phone Directory**
 - **Sorted Logs**
-- 
+- Searching for a **specific timestamp** in sorted logs.
+- **Educational Example**
+- In **exam papers sorted by roll number**, teachers can jump **every 10 papers** to find a student quickly instead of checking each sequentially.
