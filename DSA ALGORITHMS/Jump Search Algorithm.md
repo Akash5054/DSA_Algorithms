@@ -20,8 +20,9 @@ Imagine a **dictionary**:
    This is **Jump Search**.
 # Real World Examples
 
-- **Phone Directory**
-- **Sorted Logs**
+1.**Phone Directory**
+2.**Sorted Logs**
 - Searching for a **specific timestamp** in sorted logs.
-- **Educational Example**
+3.**Educational Example**
 - In **exam papers sorted by roll number**, teachers can jump **every 10 papers** to find a student quickly instead of checking each sequentially.
+4.
