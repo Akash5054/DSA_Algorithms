@@ -50,15 +50,18 @@ def Jump_search(arr,target):
         step+=int(math.sqrt(n))
         if prev>=n:  #reached end
             return -1
+            
     #linear Search will be done
     while prev < min(step,n):
         if arr[prev]==target:
             return prev
         prev+=1
     return -1
+    
 arr=[3,8,9,13,17,19,28,34,49,66,72,88]
 target=int(input("enter the target element to find in the array"))
 result=Jump_search(arr,target)
+
 if result !=-1:
     print("The Element is found in the array")
 else:
