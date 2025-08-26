@@ -23,4 +23,6 @@ Imagine a **dictionary**:
 
 # Real World Examples
 
+- Phone Directory
+- **Sorted Logs**
 - 
