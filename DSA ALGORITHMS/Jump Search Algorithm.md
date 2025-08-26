@@ -36,5 +36,49 @@ Jump Search is most useful when:
 # Python Code
 
 ```
+import math
 
+def Jump_search(arr,target):
+
+    n=len(arr)
+
+    step=int(math.sqrt(n))
+
+    prev=0
+
+    while arr[min(step,n)-1] < target:
+    #min(step, n) - 1 → makes sure we don’t go out of bounds when checking.
+    #Example: if step = 12 and n = 10, min(12,10)-1 = 9 (last index).
+        prev=step
+        step+=int(math.sqrt(n))
+        if prev>=n:  #reached end
+            return -1
+
+        #linear Search will be done
+
+    while prev < min(step,n):
+
+        if arr[prev]==target:
+
+            return prev
+
+        prev+=1
+
+    return -1
+
+arr=[3,8,9,13,17,19,28,34,49,66,72,88]
+
+target=int(input("enter the target element to find in the array"))
+
+result=Jump_search(arr,target)
+
+  
+
+if result !=-1:
+
+    print("The Element is found in the array")
+
+else:
+
+    print("The Element is not found in the array")
 ```
