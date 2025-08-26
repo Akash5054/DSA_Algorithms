@@ -67,3 +67,6 @@ if result !=-1:
 else:
     print("The Element is not found in the array")
 ```
+
+# Complexity
+
