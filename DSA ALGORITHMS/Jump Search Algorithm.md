@@ -21,4 +21,6 @@ Imagine a **dictionary**:
 - Once you pass the section (overshoot), you go **back a few pages** (linear search). 
    This is **Jump Search**.
 
-# 
+# Real World Examples
+
+- 
