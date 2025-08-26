@@ -85,6 +85,6 @@ else:
 - **Best case:** `O(1)` → if the target is at the first checked position.
 - **Worst case:** `O(√n)` → jumping through √n blocks + linear search in a block.    
 - **Average case:** `O(√n)` → on average, you jump √n blocks and search linearly.
-#### **Space Complexity:** 
-`O(1)` → no extra memory is needed
+### **Space Complexity:** 
+- `O(1)` → no extra memory is needed
 
