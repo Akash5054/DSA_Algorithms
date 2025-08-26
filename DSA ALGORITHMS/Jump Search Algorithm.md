@@ -25,7 +25,6 @@ Imagine a **dictionary**:
 - Searching for a **specific timestamp** in sorted logs.
 3.**Educational Example**
 - In **exam papers sorted by roll number**, teachers can jump **every 10 papers** to find a student quickly instead of checking each sequentially.
-
 # Important Note
   
 Jump Search is most useful when:
@@ -33,3 +32,9 @@ Jump Search is most useful when:
 - The data is **sorted**.
 - You want **fewer comparisons** than linear search.
 - You don’t want the **recursive overhead** of binary search.
+
+# Python Code
+
+```
+
+```
