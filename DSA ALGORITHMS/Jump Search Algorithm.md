@@ -8,11 +8,9 @@
 # Steps and how it works
 
 1. Choose a block size = `√n` (approximate optimal jump length).
-    
 2. Jump ahead in steps until:
-    
-    - The element at the block end is **≥ target** (or array end reached).
-        
+- The element at the block end is **≥ target** (or array end reached).
 3. Do a linear search **inside that block**.
-    
 4. If found → return index, else → return -1.
+
+# 
