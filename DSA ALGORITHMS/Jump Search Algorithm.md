@@ -4,7 +4,6 @@
 - Instead of checking every element (like Linear Search), it jumps ahead by a fixed number of steps (usually √n).
 - When it overshoots the target, it performs a **linear search backwards** in the block.
 - It’s faster than Linear Search but slower than Binary Search.
-
 # Steps and how it works
 
 1. Choose a block size = `√n` (approximate optimal jump length).
@@ -12,7 +11,6 @@
 - The element at the block end is **≥ target** (or array end reached).
 3. Do a linear search **inside that block**.
 4. If found → return index, else → return -1.
-
 # Real world Analogy
 
 Imagine a **dictionary**:
@@ -20,7 +18,6 @@ Imagine a **dictionary**:
 - Instead of checking word by word, you flip ahead **10 pages at a time** (jumps).
 - Once you pass the section (overshoot), you go **back a few pages** (linear search). 
    This is **Jump Search**.
-
 # Real World Examples
 
 - **Phone Directory**
